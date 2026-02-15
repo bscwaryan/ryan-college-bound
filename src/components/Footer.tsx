@@ -6,11 +6,11 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center">
           <Image
-            src="/RCB-logo.png"
+            src="/RCB-logo-light.png"
             alt="Ryan College Bound"
             width={180}
             height={69}
-            className="h-12 w-auto brightness-0 invert mb-4"
+            className="h-12 w-auto mb-4"
           />
           <p className="text-gold text-sm font-medium tracking-wide mb-6">
             College Bound with Confidence

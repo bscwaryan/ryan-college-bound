@@ -24,7 +24,15 @@ export default function Header() {
               alt="Ryan College Bound"
               width={160}
               height={61}
-              className="h-10 sm:h-12 w-auto"
+              className="h-10 sm:h-12 w-auto dark:hidden"
+              priority
+            />
+            <Image
+              src="/RCB-logo-light.png"
+              alt="Ryan College Bound"
+              width={160}
+              height={61}
+              className="h-10 sm:h-12 w-auto hidden dark:block"
               priority
             />
           </a>
