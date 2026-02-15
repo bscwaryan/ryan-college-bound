@@ -5,13 +5,15 @@ export default function Footer() {
     <footer className="py-12 bg-bg-navy">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center">
-          <Image
-            src="/RCB-logo-light.png"
-            alt="Ryan College Bound"
-            width={180}
-            height={69}
-            className="h-12 w-auto mb-4"
-          />
+          <div className="bg-white rounded-xl px-4 py-2.5 mb-4 inline-block">
+            <Image
+              src="/RCB-logo.png"
+              alt="Ryan College Bound"
+              width={180}
+              height={69}
+              className="h-10 w-auto"
+            />
+          </div>
           <p className="text-gold text-sm font-medium tracking-wide mb-6">
             College Bound with Confidence
           </p>
