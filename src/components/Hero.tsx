@@ -9,14 +9,16 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-16 sm:py-20">
-        <Image
-          src="/RCB-logo.png"
-          alt="Ryan College Bound"
-          width={400}
-          height={154}
-          className="mx-auto mb-8 sm:mb-10 w-64 sm:w-80 md:w-96 h-auto brightness-0 invert"
-          priority
-        />
+        <div className="mx-auto mb-8 sm:mb-10 w-64 sm:w-80 md:w-96 bg-white/95 rounded-2xl px-6 py-4 shadow-lg">
+          <Image
+            src="/RCB-logo.png"
+            alt="Ryan College Bound"
+            width={400}
+            height={154}
+            className="w-full h-auto"
+            priority
+          />
+        </div>
 
         <p className="text-gold text-lg sm:text-xl font-medium tracking-wide uppercase mb-6">
           College Bound with Confidence
