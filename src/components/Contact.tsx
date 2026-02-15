@@ -78,7 +78,7 @@ export default function Contact() {
                 <input
                   type="hidden"
                   name="access_key"
-                  value="YOUR_WEB3FORMS_KEY"
+                  value="44c1b465-91d3-4c30-981a-01b1874fdefd"
                 />
                 <input
                   type="hidden"
