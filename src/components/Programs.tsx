@@ -1,17 +1,18 @@
 const programs = [
   {
-    grade: "10th Grade",
+    grade: "9th / 10th Grade",
     title: "Building Foundations",
     description:
-      "Sophomore year sets the stage for everything that follows. We build a strong academic foundation, begin test preparation, and start exploring what matters most to your student.",
+      "The early years set the stage for everything that follows. We build a strong academic foundation, begin test preparation, and start exploring what matters most to your student.",
     outcomes: [
+      "Four AchieveWorks Assessments (Personality, Skills, Intelligences, Learning & Productivity)",
       "Clear 4-year academic plan with appropriate rigor",
       "Personalized standardized test prep strategy",
-      "Career exploration and interest assessments",
-      "Preliminary college list of 10-15 schools",
-      "Extracurricular development roadmap",
+      "College Planner Pro account for research and organization",
+      "Assistance in the development of a Passion Project and/or Research Project",
+      "Preliminary college list of 10\u201315 schools",
     ],
-    sessions: "12 personalized sessions",
+    sessions: "Number of sessions dependent on student needs",
     color: "bg-gold/10 border-gold/20",
   },
   {
@@ -20,28 +21,30 @@ const programs = [
     description:
       "Junior year is the most important year for college admissions. We maximize academic performance, finalize testing, craft compelling essays, and build your application strategy.",
     outcomes: [
-      "Finalized college list of 8-12 schools",
+      "Finalized college list of 8\u201312 schools",
       "Polished personal statement ready for submission",
       "Complete SAT/ACT testing with target scores",
+      "Completion of an exemplary resume",
       "Teacher recommendations secured",
       "Application strategy (ED/EA/RD) finalized",
     ],
-    sessions: "12 personalized sessions + essay coaching",
+    sessions: "12\u201316 sessions depending on need",
     color: "bg-gold/15 border-gold/25",
   },
   {
     grade: "12th Grade",
     title: "Application to Acceptance",
     description:
-      "Senior year is about executing with precision — submitting polished applications, navigating financial aid, and making a confident final college decision.",
+      "Senior year is about executing with precision \u2014 submitting polished applications, navigating financial aid, and making a confident final college decision.",
     outcomes: [
-      "All applications submitted on time with confidence",
+      "Every college and scholarship application reviewed closely before submission",
+      "Strategic scholarship plan",
       "FAFSA/CSS Profile completed strategically",
       "Financial aid packages analyzed and compared",
       "Informed final college decision by May 1",
       "Smooth transition preparation for college life",
     ],
-    sessions: "12 personalized sessions + full application support",
+    sessions: "12\u201316 sessions + full application support",
     color: "bg-gold/20 border-gold/30",
   },
 ];
@@ -58,9 +61,9 @@ export default function Programs() {
             A Comprehensive Roadmap for Every Step
           </h2>
           <p className="text-text-muted text-lg leading-relaxed">
-            Each program is tailored to what matters most at that stage of your
-            student&apos;s journey — with structured sessions, between-meeting
-            support, and parent involvement throughout.
+            Students have access to the very best resources including a College
+            Planner Pro account, which helps keep the student organized and is an
+            outstanding research and information tool.
           </p>
         </div>
 
@@ -108,8 +111,7 @@ export default function Programs() {
 
               <div className="mt-8 pt-6 border-t border-border">
                 <p className="text-sm text-text-muted mb-4">
-                  <strong className="text-navy">{program.sessions}</strong>{" "}
-                  throughout the school year
+                  <strong className="text-navy">{program.sessions}</strong>
                 </p>
                 <a
                   href="#contact"

@@ -16,14 +16,14 @@ export default function About() {
             <div className="space-y-4 text-text-muted leading-relaxed">
               <p>
                 With <strong className="text-navy">33 years of experience</strong> as
-                a college and high school counselor and six years as an Independent
-                Educational Consultant, I&apos;ve guided hundreds of families through
-                the college admissions journey.
+                a college and high school counselor, including six years as an
+                Independent Educational Consultant, I&apos;ve guided hundreds of
+                families through the college admissions journey.
               </p>
               <p>
                 As a recently retired high school counselor who coordinated{" "}
                 <strong className="text-navy">
-                  Alabama&apos;s largest dual enrollment program
+                  what became Alabama&apos;s largest dual enrollment program
                 </strong>{" "}
                 at Northwest Shoals Community College, I understand firsthand both
                 the challenges families face and the opportunities available.
@@ -46,7 +46,7 @@ export default function About() {
                 <p className="text-sm text-text-muted">Years as IEC</p>
               </div>
               <div className="text-center">
-                <p className="text-3xl font-bold text-gold">100s</p>
+                <p className="text-3xl font-bold text-gold">1,000s</p>
                 <p className="text-sm text-text-muted">Families Guided</p>
               </div>
             </div>

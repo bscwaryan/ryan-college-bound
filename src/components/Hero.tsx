@@ -30,7 +30,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-text-on-navy/80 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-          From sophomore year through acceptance day — personalized guidance that
+          From freshman year through acceptance day — personalized guidance that
           turns the college admissions journey from overwhelming to empowering.
         </p>
 
