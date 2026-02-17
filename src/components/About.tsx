@@ -60,7 +60,7 @@ export default function About() {
               alt="Melissa Ryan — Independent Educational Consultant"
               width={280}
               height={280}
-              className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full shadow-lg object-cover border-4 border-gold/20"
+              className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full shadow-lg object-cover object-[center_25%] border-4 border-gold/20"
             />
           </div>
         </div>
