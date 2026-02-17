@@ -58,9 +58,9 @@ export default function About() {
             <Image
               src="/melissa-headshot.jpg"
               alt="Melissa Ryan — Independent Educational Consultant"
-              width={400}
-              height={500}
-              className="w-full max-w-md rounded-2xl shadow-lg object-cover"
+              width={280}
+              height={280}
+              className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full shadow-lg object-cover border-4 border-gold/20"
             />
           </div>
         </div>
